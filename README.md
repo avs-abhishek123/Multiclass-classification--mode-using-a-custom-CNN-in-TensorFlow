@@ -24,7 +24,7 @@ The data set contains the following diseases:
 
 ## General Information
 - The solution is divided into the following sections:
-> Project Pipeline
+- Project Pipeline
     - Data Reading/Data Understanding → Defining the path for train and test images 
     - Dataset Creation→ Create train & validation dataset from the train directory with a batch size of 32. Also, make  sure you resize your images to 180*180.
     - Dataset visualisation → Create a code to visualize one instance of all the nine classes present in the dataset 
@@ -63,21 +63,25 @@ The data set contains the following diseases:
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+
+- pathlib - version 1.0
+- tensorflow - version 1.0
+- matplotlib - version 1.0
+- numpy - version 1.0
+- pandas - version 1.0
+- os - version 1.0
+- PIL - version 1.0
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by Upgrad.
+- This project was based on Upgrad's Tutorial.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@avs-abhishek123] - feel free to contact me!
 
 
 <!-- Optional -->
