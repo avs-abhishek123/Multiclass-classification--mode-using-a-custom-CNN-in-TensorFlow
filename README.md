@@ -54,6 +54,9 @@ The data set contains the following diseases:
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
+- optimizer="Adam",loss="categorical_crossentropy" are used.
+- To overcome the issue of class imbalance, used a python package Augmentor (https://augmentor.readthedocs.io/en/master/) to add more samples across all classes so that none of the classes have very few samples.
+- To prevent overfit we have used early stopping when val_accuracy had stopped improving
 - Conclusion 1 from the analysis
 - Conclusion 2 from the analysis
 - Conclusion 3 from the analysis
