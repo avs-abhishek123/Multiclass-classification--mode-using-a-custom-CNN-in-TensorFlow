@@ -53,9 +53,9 @@ The data set contains the following diseases:
 
     The data set contains the following diseases:
 
-    ![datasetdf](https://github.com/kshitij-raj/Melanoma-Skin-Cancer-Detection/blob/f143d178495ec6490ce2ee18c4cbbfb2e1388cea/Readme_images/Datasetdf.png)
+    ![datasetdf](https://github.com/avs-abhishek123/Multiclass-classification--mode-using-a-custom-CNN-in-TensorFlow/blob/main/github-readme-images/image_count_df.png)
 
-    ![datasetplot](https://github.com/kshitij-raj/Melanoma-Skin-Cancer-Detection/blob/f143d178495ec6490ce2ee18c4cbbfb2e1388cea/Readme_images/DatasetPlot.png)
+    ![datasetplot](https://github.com/avs-abhishek123/Multiclass-classification--mode-using-a-custom-CNN-in-TensorFlow/blob/main/github-readme-images/class_image_count_graph.png)
 
     To overcome the issue of class imbalance, used a python package  Augmentor (https://augmentor.readthedocs.io/en/master/) to add more samples across all classes so that none of the classes have very few samples.
 
@@ -63,7 +63,7 @@ The data set contains the following diseases:
 
 ### Sample image from Dataset
 
-![sample image](https://github.com/kshitij-raj/Melanoma-Skin-Cancer-Detection/blob/b43daf05e84626d3796321e79caeb2f6f8179346/Readme_images/Samleimagefromdataset.png)
+![sample image](https://github.com/avs-abhishek123/Multiclass-classification--mode-using-a-custom-CNN-in-TensorFlow/blob/main/github-readme-images/Sample.png)
 
 ## CNN Architecture Design
 To classify skin cancer using skin lesions images. To achieve higher accuracy and results on the classification task, I have built custom CNN model.
@@ -77,11 +77,19 @@ To classify skin cancer using skin lesions images. To achieve higher accuracy an
 - Activation Function(ReLU) - The rectified linear activation function or ReLU for short is a piecewise linear function that will output the input directly if it is positive, otherwise, it will output zero.The rectified linear activation function overcomes the vanishing gradient problem, allowing models to learn faster and perform better.
 - Activation Function(Softmax) - The softmax function is used as the activation function in the output layer of neural network models that predict a multinomial probability distribution. The main advantage of using Softmax is the output probabilities range. The range will 0 to 1, and the sum of all the probabilities will be equal to one.
 
-### Model Architecture
-![Model Arch](https://github.com/kshitij-raj/Melanoma-Skin-Cancer-Detection/blob/d8b2ca8cc296af14ab9aa7a6def31a7efc86271b/Readme_images/ModelLayer.png)
+### Model Architectures
+### Model Architecture - 1
+![Model Arch 1](https://github.com/avs-abhishek123/Multiclass-classification--mode-using-a-custom-CNN-in-TensorFlow/blob/main/github-readme-images/model_1_architecture.png)
+
+### Model Architecture - 2
+![Model Arch 2](https://github.com/avs-abhishek123/Multiclass-classification--mode-using-a-custom-CNN-in-TensorFlow/blob/main/github-readme-images/model_2_architecture.png)
 
 ### Model Evaluation
-![ModelEvaluation](https://github.com/kshitij-raj/Melanoma-Skin-Cancer-Detection/blob/7e7a17d3c891bf12be42385979168135775654c4/Readme_images/ModelEvaluation.png)
+![ModelEvaluation](https://github.com/avs-abhishek123/Multiclass-classification--mode-using-a-custom-CNN-in-TensorFlow/blob/main/github-readme-images/cf1fc079-c2c5-4161-9d5c-8a448e4e7e13.png)
+![ModelEvaluation](https://github.com/avs-abhishek123/Multiclass-classification--mode-using-a-custom-CNN-in-TensorFlow/blob/main/github-readme-images/e0a112a5-e50a-4b8c-a310-deb300a9de7e.png)
+
+### Model Prediction
+![ModelEvaluation](https://github.com/avs-abhishek123/Multiclass-classification--mode-using-a-custom-CNN-in-TensorFlow/blob/main/github-readme-images/final-prediction.png)
 
 ## Conclusions
 - optimizer="Adam",loss="categorical_crossentropy" are used.
@@ -98,22 +106,21 @@ To classify skin cancer using skin lesions images. To achieve higher accuracy an
 ## Technologies Used
 
 
-- glob - version 1.0
-- pathlib - version 1.0
-- tensorflow - version 1.0
-- matplotlib - version 1.0
-- numpy - version 1.0
-- pandas - version 1.0
-- os - version 1.0
-- PIL - version 1.0
-- tensorflow - version 1.0
-- sklearn - version 1.0
-- tqdm - version 1.0
-- collections - version 1.0
-- IPython - version 1.0
-- time - version 1.0
-- matplotlib - version 1.0
-- seaborn - version 1.0
+- glob - version 8.0.3
+- matplotlib - version 3.5.2
+- numpy - version 1.22.3
+- pandas - version 1.4.3
+- os - version 3.10.6
+- PIL - version 9.1.0
+- tensorflow - version 2.9.1
+- keras - version 2.9.0
+- Keras-Preprocessing - version 1.1.2
+- sklearn - version 1.0.2
+- tqdm - version 4.64.0
+- IPython - version 8.3.0
+- time - version 3.10.6
+- seaborn - version 0.11.2
+-  Augmentor - version 0.2.10
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
