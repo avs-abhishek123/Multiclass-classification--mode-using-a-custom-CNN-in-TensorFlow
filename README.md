@@ -67,6 +67,8 @@ The data set contains the following diseases:
 
 ## Technologies Used
 
+
+- glob - version 1.0
 - pathlib - version 1.0
 - tensorflow - version 1.0
 - matplotlib - version 1.0
@@ -74,7 +76,14 @@ The data set contains the following diseases:
 - pandas - version 1.0
 - os - version 1.0
 - PIL - version 1.0
-
+- tensorflow - version 1.0
+- sklearn - version 1.0
+- tqdm - version 1.0
+- collections - version 1.0
+- IPython - version 1.0
+- time - version 1.0
+- matplotlib - version 1.0
+- seaborn - version 1.0
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
